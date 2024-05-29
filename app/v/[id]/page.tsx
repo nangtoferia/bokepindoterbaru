@@ -6,6 +6,7 @@ import {
     RocketIcon,
     Share1Icon,
 } from "@radix-ui/react-icons";
+import Script from "next/script";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Metadata, ResolvingMetadata } from "next";
 import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
@@ -143,6 +144,7 @@ const jsonLd = {
     return (
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10">
         <section>
+<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w2e4z2e4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         {/* Add JSON-LD to your page */}
         <script
           type="application/ld+json"
